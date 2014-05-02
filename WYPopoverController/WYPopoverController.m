@@ -482,8 +482,8 @@ static char const * const UINavigationControllerEmbedInPopoverTagKey = "UINaviga
     WYPopoverTheme *result = [[WYPopoverTheme alloc] init];
     
     result.tintColor = [UIColor colorWithRed:244./255. green:244./255. blue:244./255. alpha:1.0];
-    result.outerStrokeColor = [UIColor clearColor];
-    result.innerStrokeColor = [UIColor clearColor];
+    result.outerStrokeColor = nil;
+    result.innerStrokeColor = nil;
     result.fillTopColor = nil;
     result.fillBottomColor = nil;
     result.glossShadowColor = nil;
